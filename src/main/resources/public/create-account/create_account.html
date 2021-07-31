@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="create_account.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="page-header text-center text-dark bg-light">
+      <h1>
+        Bank of Revature
+        <img src="https://png.pngtree.com/png-clipart/20190619/original/pngtree-concept-banking-logo-png-image_4017929.jpg" class="icon"/>
+      </h1>
+    </div>
+   
+    <form>
+      <div class="form-row">
+        <label class="my-1 mr-2" for="inlineFormCustomSelectPref"></label>
+        <select id="account" onChange="getAccountType(this)">
+          <option selected>Account Type...</option>
+          <option value="1">Checking Account</option>
+          <option value="2">Saving Account</option>
+        </select>
+      </div>
+      
+        <div class="col">
+          <input id="firstName" type="text" aria-setsize="10" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+          <input id="lastName" type="text" class="form-control" placeholder="Last name">
+        </div>
+        <div class="col">
+          <input id="phoneNumber" type="number" class="form-control" placeholder="Phone number">
+        </div>
+        <div class="col">
+          <input id="email" type="email" class="form-control" placeholder="Email">
+        </div>
+        <div class="col">
+          <input id="accountName" type="text" class="form-control" placeholder="Account name">
+        </div>
+        <div class="col">
+          <input id="balance" type="number" class="form-control" placeholder="Balance">
+        </div>
+
+        <button type="submit" class="btn btn-primary my-1">Apply</button>
+      	<a class="btn btn-primary my-1" href="/customer_home_page/customer_home_page.html">Main Menu</a>
+    </form>
+  <script src="create-account.js"></script> 
+</body>
+</html>

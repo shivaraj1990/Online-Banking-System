@@ -1,0 +1,23 @@
+.icon {
+    height: 50px;
+}
+
+.col{
+    width:60%
+}
+
+body{
+    background-color:darkseagreen;
+    background-image:url(https://mms.businesswire.com/media/20200429005562/en/788394/23/revature-logo.jpg);
+    
+}
+
+H2 {text-align: center;
+   color: #b00000;
+}
+ H3 {text-align: center;
+    color:#00356a;
+ }
+
+
+
